@@ -1,10 +1,10 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { FileText, HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Md Faizan",
   initials: "MF",
-  url: "https://dillion.io",
+  url: "https://faizan.evocreator.com/",
   location: "Basti, Uttar Pradesh, India",
   locationLink: "https://maps.app.goo.gl/TZStTnFb9aDKrt6DA",
   description:
@@ -13,7 +13,7 @@ export const DATA = {
     "I’m a self-taught full-stack developer with a focus on building web applications that provide real-world value. [Whether it’s helping creators sell digital products through Evo Creator](#projects) or [designing social media tools like Downloady,](#projects) I’ve always believed in learning by doing. My entire development knowledge comes from YouTube tutorials and real-world projects—no formal education, just a relentless drive to figure things out on my own. I’ve built payment gateways, integrated complex APIs, and explored new ways to combine coding with content creation. When I’m not coding, I’m experimenting with video editing or running Facebook ad campaigns to test new ideas and help clients scale their businesses.",
   avatarUrl: "/me.jpeg",
   skills: [
-    "React",
+    "React.js",
     "Next.js",
     "Typescript",
     "Node.js",
@@ -30,7 +30,11 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    {
+      href: "https://drive.google.com/file/d/1pikhCqJ3akXjn7KTtYjU4of-X6EN5xaP/view?usp=sharing",
+      icon: FileText,
+      label: "Resume",
+    },
   ],
   contact: {
     email: "rizwan775505@gmail.com",
